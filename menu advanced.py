@@ -54,5 +54,3 @@ if konfirmasi == "benar":
     print("Pesanan Anda akan segera disiapkan :)")
 else:
     print("Oke, silakan pesan kembali ya!")
-    # ✅ Untuk ulang bisa jalankan ulang script ini
-
