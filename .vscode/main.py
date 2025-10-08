@@ -4,10 +4,10 @@ print(" ")
 nama_pelanggan = input("Dengan tuan/nyonya siapa? ")
 print(" ")
 
-print('''                Daging asap-----Rp. 50.000
-                Daging makima---Rp. 1.500.000
-                Paha eula-------Rp. 500.000
-                Susu hutao------Rp. 1000
+print('''                Daging rendang-----Rp. 50.000
+                Daging rusdi---Rp. 1.500.000
+                Paha ambatukam-------Rp. 500.000
+                Susu tringgiling------Rp. 1000
 ''')
 
 pesanan = input(f"Silakan pilih menu yang mau {nama_pelanggan} pesan: ")
