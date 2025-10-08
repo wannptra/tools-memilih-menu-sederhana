@@ -1,23 +1,20 @@
-# Menu sebagai dictionary: nama → harga
 menu = {
     "Daging asap": 50000,
-    "Daging makima": 1500000,
-    "Paha eula": 500000,
-    "Susu hutao": 1000
+    "Daging rusdi": 1500000,
+    "Paha ambatukam": 500000,
+    "Susu tringgiling": 1000
 }
 
-print("SELAMAT DATANG DI RESTORAN KARBIT CHAMPIONS")
+print("SELAMAT DATANG DI RESTORAN DODO NASIHIN")
 nama = input("Dengan tuan/nyonya siapa? ")
 print()
 
-# Tampilkan daftar menu
 print("------ MENU MAKANAN ------")
 for item, harga in menu.items():
     print(f"{item:<20} - Rp {harga:,}")
 print()
 
-# Proses pemesanan: bisa banyak item
-pesanan = {}  # nama item → jumlah
+pesanan = {}
 
 while True:
     item = input("Pilih menu (mohon huruf kecil/besarnya diperhatikan, spasinya juga. ketik 'selesai' kalau sudah): ")
