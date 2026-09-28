@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal DISPORAPAR — Pemerintah Kabupaten Kuningan</title>
+<meta name="description" content="Portal resmi informasi publik, layanan, dan berita Dinas Pariwisata dan Kebudayaan Kabupaten Kuningan.">
+ 
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
+<!-- Font Awesome (ikon) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<!-- Skip link untuk aksesibilitas -->
+<a href="#konten-utama" class="skip-link">Lompat ke konten utama</a>
+ 
+<!-- ============ HEADER / NAVBAR ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+ 
+    <a href="#" class="logo" aria-label="Beranda">
+      <span class="logo-mark" aria-hidden="true">
+        <i class="fa-solid fa-shield-halved"></i>
+      </span>
+      <span class="logo-text">
+        <span class="logo-title"><em>DINAS</em>DISPORAPAR</span>
+        <span class="logo-sub">Kabupaten Kuningan</span>
+      </span>
+    </a>
+ 
+    <nav class="main-nav" id="mainNav" aria-label="Navigasi utama">
+      <ul class="nav-list">
+ 
+        <li class="nav-item has-dropdown">
+          <button class="nav-link" aria-expanded="false">
+            Profil OPD <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-panel">
+            <a href="#" class="dropdown-link">Sejarah &amp; Kedudukan</a>
+            <a href="#" class="dropdown-link">Visi &amp; Misi</a>
+            <a href="#" class="dropdown-link">Tugas &amp; Fungsi</a>
+            <a href="#" class="dropdown-link">Struktur Organisasi</a>
+            <a href="#" class="dropdown-link">Profil Pimpinan</a>
+          </div>
+        </li>
+ 
+        <li class="nav-item has-dropdown">
+          <button class="nav-link" aria-expanded="false">
+            PPID <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-panel">
+            <a href="#" class="dropdown-link">Profil PPID</a>
+            <a href="#" class="dropdown-link">Daftar Informasi Publik</a>
+            <a href="#" class="dropdown-link">Permohonan Informasi</a>
+            <a href="#" class="dropdown-link">Layanan Keberatan</a>
+          </div>
+        </li>
+ 
+        <li class="nav-item has-dropdown">
+          <button class="nav-link" aria-expanded="false">
+            Informasi Publik <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-panel">
+            <a href="#" class="dropdown-link">Berita &amp; Artikel</a>
+            <a href="#" class="dropdown-link">Pengumuman</a>
+            <a href="#" class="dropdown-link">Regulasi &amp; Kebijakan</a>
+            <a href="#" class="dropdown-link">Laporan Kinerja</a>
+          </div>
+        </li>
+ 
+        <li class="nav-item has-dropdown">
+          <button class="nav-link" aria-expanded="false">
+            Standar Layanan <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-panel">
+            <a href="#layanan" class="dropdown-link">Aplikasi &amp; Layanan Online</a>
+            <a href="#" class="dropdown-link">Alur &amp; SOP Layanan</a>
+            <a href="#" class="dropdown-link">Maklumat Pelayanan</a>
+            <a href="#" class="dropdown-link">Survei Kepuasan Masyarakat</a>
+          </div>
+        </li>
+ 
+        <li class="nav-item has-dropdown">
+          <button class="nav-link" aria-expanded="false">
+            Event Terkini <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+          </button>
+          <div class="dropdown-panel">
+            <a href="#agenda" class="dropdown-link">Agenda Kegiatan</a>
+            <a href="#galeri" class="dropdown-link">Galeri Kegiatan</a>
+            <a href="#" class="dropdown-link">Siaran Pers</a>
+          </div>
+        </li>
+ 
+      </ul>
+    </nav>
+ 
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+ 
+  </div>
+</header>
+ 
+<main id="konten-utama">
+ 
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+ 
+    <div class="container hero-content">
+      <h1 class="hero-title">Bergerak Bersama Masyarakat Sukamaju Menuju Pelayanan Prima</h1>
+      <p class="hero-subtitle">Temukan informasi publik, layanan, dan kegiatan [Nama Dinas] Kabupaten Sukamaju</p>
+    </div>
+ 
+    <!-- Carousel banner mengintip kiri-kanan -->
+    <div class="banner-carousel" id="bannerCarousel">
+      <button class="banner-arrow banner-arrow--prev" id="bannerPrev" aria-label="Banner sebelumnya">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+ 
+      <div class="banner-track" id="bannerTrack"><!-- slide dirender oleh JS --></div>
+ 
+      <button class="banner-arrow banner-arrow--next" id="bannerNext" aria-label="Banner berikutnya">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+ 
+      <div class="banner-dots" id="bannerDots"></div>
+    </div>
+  </section>
+ 
+  <!-- ============ WIDGET MENGAMBANG ============ -->
+  <div class="floating-widgets">
+    <div class="weather-widget" id="weatherWidget">
+      <button class="weather-toggle" id="weatherToggle" aria-expanded="true" aria-label="Sembunyikan/tampilkan cuaca">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      <div class="weather-body">
+        <i class="fa-solid fa-cloud-sun weather-icon" aria-hidden="true"></i>
+        <span class="weather-temp">29°<small>C</small></span>
+        <span class="weather-desc">Cerah Berawan</span>
+      </div>
+    </div>
+ 
+    <button class="a11y-button" id="a11yButton" aria-label="Menu aksesibilitas" aria-expanded="false">
+      <i class="fa-solid fa-universal-access"></i>
+    </button>
+ 
+    <div class="a11y-panel" id="a11yPanel" hidden>
+      <p class="a11y-panel-title">Aksesibilitas</p>
+      <button data-a11y="inc">A<span>+</span> Perbesar teks</button>
+      <button data-a11y="dec">A<span>-</span> Perkecil teks</button>
+      <button data-a11y="contrast">Kontras tinggi</button>
+      <button data-a11y="reset">Atur ulang</button>
+    </div>
+ 
+    <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+ 
+  <!-- ============ BERITA TERKINI ============ -->
+  <section class="section berita" aria-labelledby="berita-heading">
+    <div class="container">
+      <h2 id="berita-heading" class="section-title">Berita Terkini</h2>
+ 
+      <div class="berita-grid">
+ 
+        <!-- Featured news carousel -->
+        <div class="berita-featured" id="beritaFeatured">
+          <div class="berita-featured-media" aria-hidden="true"></div>
+          <div class="berita-featured-scrim" aria-hidden="true"></div>
+          <div class="berita-featured-body">
+            <span class="badge" id="featuredCategory">Olahraga</span>
+            <h3 class="berita-featured-title" id="featuredTitle">Judul berita utama akan tampil di sini</h3>
+            <p class="berita-featured-meta">
+              <i class="fa-regular fa-calendar"></i> <span id="featuredDate">Rabu, 23 September 2026</span>
+              &nbsp;·&nbsp; Penulis: <span id="featuredAuthor">Admin</span>
+            </p>
+            <a href="#" class="btn btn-light">Baca Selengkapnya</a>
+          </div>
+          <div class="berita-featured-nav">
+            <button id="featuredPrev" aria-label="Berita sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+            <span id="featuredCounter">1 dari 5</span>
+            <button id="featuredNext" aria-label="Berita berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+ 
+        <!-- List berita + tabs -->
+        <div class="berita-list-card">
+          <div class="berita-tabs" role="tablist">
+            <button class="berita-tab is-active" data-tab="terbaru" role="tab" aria-selected="true">Terbaru</button>
+            <button class="berita-tab" data-tab="terpopuler" role="tab" aria-selected="false">Terpopuler</button>
+          </div>
+          <ul class="berita-list" id="beritaList"><!-- dirender oleh JS --></ul>
+          <a href="#" class="link-more">Lihat Semua Posting <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+ 
+        <!-- Agenda / kalender -->
+        <div class="agenda-card" id="agenda">
+          <div class="agenda-header">
+            <p class="agenda-title">Agenda Kegiatan</p>
+            <p class="agenda-sub">Informasi seputar agenda kegiatan [Nama Dinas]</p>
+          </div>
+          <div class="agenda-month-row">
+            <span id="agendaMonthLabel">September 2026</span>
+          </div>
+          <div class="agenda-days" id="agendaDays">
+            <button class="agenda-day-nav" id="agendaPrev" aria-label="Hari sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="agenda-day-list" id="agendaDayList"><!-- dirender oleh JS --></div>
+            <button class="agenda-day-nav" id="agendaNext" aria-label="Hari berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+          <div class="agenda-events" id="agendaEvents"><!-- dirender oleh JS --></div>
+        </div>
+ 
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ============ LAYANAN / APLIKASI ============ -->
+  <section class="section layanan" id="layanan" aria-labelledby="layanan-heading">
+    <div class="container">
+      <h2 id="layanan-heading" class="section-title">Layanan &amp; Aplikasi</h2>
+      <p class="section-subtitle">Aplikasi dan portal digital yang terhubung dengan [Nama Dinas]</p>
+ 
+      <div class="layanan-grid" id="layananGrid"><!-- dirender oleh JS --></div>
+    </div>
+  </section>
+ 
+  <!-- ============ GALERI ============ -->
+  <section class="section galeri" id="galeri" aria-labelledby="galeri-heading">
+    <div class="container">
+      <h2 id="galeri-heading" class="section-title">Galeri Kegiatan</h2>
+      <p class="section-subtitle">Dokumentasi kegiatan [Nama Dinas] Kabupaten Sukamaju</p>
+ 
+      <div class="galeri-grid" id="galeriGrid"><!-- dirender oleh JS --></div>
+    </div>
+  </section>
+ 
+  <!-- ============ VIDEO SOROTAN ============ -->
+  <section class="section video-sorotan" aria-labelledby="video-heading">
+    <div class="container video-card">
+      <div class="video-thumb" aria-hidden="true">
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+      <div class="video-info">
+        <h2 id="video-heading">Ikuti kegiatan kami di TikTok</h2>
+        <p>Video terbaru seputar kegiatan dan layanan [Nama Dinas].</p>
+        <a href="#" class="btn btn-primary">Tonton Sekarang</a>
+      </div>
+    </div>
+  </section>
+ 
+</main>
+ 
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+ 
+    <div class="footer-brand">
+      <span class="logo-title logo-title--light"><em>NAMA</em>DINAS</span>
+      <p>Portal resmi [Nama Dinas] Kabupaten Sukamaju.</p>
+    </div>
+ 
+    <div class="footer-col">
+      <h3><i class="fa-solid fa-location-dot"></i> Alamat</h3>
+      <p>Jl. Contoh Raya No. 1, Kecamatan Tengah,<br>Kabupaten Sukamaju, Indonesia</p>
+    </div>
+ 
+    <div class="footer-col">
+      <h3><i class="fa-solid fa-envelope"></i> Email</h3>
+      <p><a href="mailto:info@namadinas.go.id">info@namadinas.go.id</a></p>
+      <h3 class="mt"><i class="fa-solid fa-phone"></i> Telepon</h3>
+      <p>(021) 000-0000</p>
+    </div>
+ 
+    <div class="footer-col">
+      <h3>Media Sosial</h3>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="Twitter/X"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+ 
+  </div>
+  <div class="footer-bottom">
+    <p>Copyright © [Nama Dinas] <span id="tahunFooter"></span></p>
+  </div>
+</footer>
+ 
+<!-- ============ MODAL GALERI (LIGHTBOX) ============ -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightboxClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Foto sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+  <div class="lightbox-media" id="lightboxMedia"></div>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Foto berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+</div>
+ 
+<script src="js/main.js"></script>
+</body>
+</html>
